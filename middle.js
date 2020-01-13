@@ -1,22 +1,22 @@
-const eqArrays = function(arr1, arr2) {
-  if (arr1.length !== arr2.length) {
-    return false;
-  } else {
-    for (let element = 0; element < arr1.length; element++) {
-      if (arr1[element] !== arr2[element]) {
-        return false;
-      }
-    } return true;
-  }
-}
+// const eqArrays = function(arr1, arr2) {
+//   if (arr1.length !== arr2.length) {
+//     return false;
+//   } else {
+//     for (let element = 0; element < arr1.length; element++) {
+//       if (arr1[element] !== arr2[element]) {
+//         return false;
+//       }
+//     } return true;
+//   }
+// }
 
-const assertArraysEqual = function(array1, array2) {
-  if (eqArrays(array1, array2)) {
-    console.log(`😄💚 Assertion passed: ${array1} === ${array2}`);
-  } else {
-    console.log(`😱⛔ Assertion failed: ${array1} !== ${array2}`);
-  }
-};
+// const assertArraysEqual = function(array1, array2) {
+//   if (eqArrays(array1, array2)) {
+//     console.log(`😄💚 Assertion passed: ${array1} === ${array2}`);
+//   } else {
+//     console.log(`😱⛔ Assertion failed: ${array1} !== ${array2}`);
+//   }
+// };
 
 const middle = function(arr){
   let middleElements = [];
@@ -32,11 +32,6 @@ const middle = function(arr){
   }
 }
 
-// TEST CODE
+module.exports = middle;
 
-assertArraysEqual(middle([1]), [], true);
-assertArraysEqual(middle([1, 2]), [], true);
-assertArraysEqual(middle([1, 2, 3]), [2], true);
-assertArraysEqual(middle([1, 2, 3, 4]), [2, 3], true) // => [2, 3]
-assertArraysEqual(middle([1, 2, 3, 4, 5]), [3], true) // => [3]
-assertArraysEqual(middle([1, 2, 3, 4, 5, 6]), [3, 4], true);
+// TEST CODE
