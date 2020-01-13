@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@anneloes94/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A mini clone of the [Lodash](https://lodash.com) library.",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -18,7 +18,11 @@
     "type": "git",
     "url": "git+https://github.com/anneloes94/lotide.git"
   },
-  "author": "",
+  "author": {
+    "name" : "Anneloes van Kesteren",
+    "email" : "vankeste@ualberta.ca",
+    "url" : ""
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/anneloes94/lotide/issues"
