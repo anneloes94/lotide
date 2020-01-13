@@ -26,6 +26,8 @@ const without = function(source, itemsToRemove){
   return filtered;
 }
 
+module.exports = without;
+
 
 //filtered => [6, 7, 8, 9]
 //array => [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]

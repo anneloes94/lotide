@@ -35,3 +35,4 @@ assertEqual(findKey({
   noInBeijing: "9 million"
 }, x => x === true), "hasSteeringWheel");
 
+module.exports = findKey;

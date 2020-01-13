@@ -8,6 +8,8 @@ const takeUntil = function(array, callback) {
   }
 };
 
+module.exports = takeUntil;
+
 // TEST CASES
 
 // const data1 = [1, 2, 5, 7, 2, -1, 2, 4, 5];
